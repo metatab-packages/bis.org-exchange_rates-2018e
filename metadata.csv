@@ -1,20 +1,20 @@
 Declare,metatab-latest
-Title,
-Description,
+Title,Monthly Foreign Currency Exchange Rates
+Description,"Exchanges rates to US dollars, monthly, from 2018 on."
 Identifier,d41ff691-8b80-4542-b465-55768c0e2bce
-Name,bis.org-exchange_rates-2018e-1.1.1
+Name,bis.org-exchange_rates-2018e-1.1.3
 Dataset,exchange_rates
 Origin,bis.org
 Time,2018e
 Space,
 Grain,
 Variant,
-Version,1.1.1
+Version,1.1.3
 Version.Major,1
 Version.Minor,1
-Version.Patch,1
+Version.Patch,3
 Created,2022-11-03T19:40:13
-Modified,2022-11-03T19:40:14
+Modified,2022-11-04T20:31:01
 Giturl,https://github.com/CivicKnowledge/tablecloth.io-collection.git
 ""
 Section,Contacts,Email,Organization,Url
@@ -22,9 +22,16 @@ Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowle
 ""
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
+Homepage,https://www.bis.org/statistics/xrusd.htm?m=2675,US dollar exchange rates,,
 ""
 Section,References,Name,Description,
+Reference,https://www.bis.org/statistics/full_xru_csv.zip,monthly_exc_rates_source,,
 ""
 Section,Resources,Name,Description,
+Datafile,notebooks/extract.ipynb#df,monthly_exc_rates,Monthly exchange rates for selected currencies.,
 ""
-Section,Schema,DataType,AltName,Description
+Section,Schema,DataType,Description,,
+Table,monthly_exc_rates,,,,
+Table.Column,currency,string,Currency code,,
+Table.Column,date,date,Date of month of observation.,,
+Table.Column,rate,number,Average exchange rate over the month in $USD.,,
