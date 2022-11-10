@@ -12,25 +12,25 @@ Variant,
 Version,1.1.9
 Version.Major,1
 Version.Minor,1
-Version.Patch,9
+Version.Patch,10
 Created,2022-11-03T19:40:13
 Modified,2022-11-09T23:40:51
 Updatefrequency,P1W
 Giturl,https://github.com/CivicKnowledge/tablecloth.io-collection.git
-""
+
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-""
+
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
 Homepage,https://www.bis.org/statistics/xrusd.htm?m=2675,US dollar exchange rates,,
-""
+
 Section,References,Name,Description,
 Reference,https://www.bis.org/statistics/full_xru_csv.zip,monthly_exc_rates_source,,
-""
+
 Section,Resources,Name,Description,
 Datafile,notebooks/extract.ipynb#df,monthly_exc_rates,Monthly exchange rates for selected currencies.,
-""
+
 Section,Schema,DataType,Description,Altname,Has_Codes
 Table,monthly_exc_rates,,,,
 Table.Column,date,string,,,
