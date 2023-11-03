@@ -2,19 +2,19 @@ Declare,metatab-latest
 Title,Monthly Foreign Currency Exchange Rates
 Description,"Exchanges rates to US dollars, monthly, from 2018 on."
 Identifier,d41ff691-8b80-4542-b465-55768c0e2bce
-Name,bis.org-exchange_rates-2018e-1.1.10
+Name,bis.org-exchange_rates-2018e-1.1.25
 Dataset,exchange_rates
 Origin,bis.org
 Time,2018e
 Space,
 Grain,
 Variant,
-Version,1.1.10
+Version,1.1.25
 Version.Major,1
 Version.Minor,1
-Version.Patch,10
+Version.Patch,25
 Created,2022-11-03T19:40:13
-Modified,2022-11-10T01:13:19
+Modified,2023-10-19T23:27:12
 Updatefrequency,P1W
 Giturl,https://github.com/CivicKnowledge/tablecloth.io-collection.git
 ""
